@@ -40,6 +40,8 @@
 body {
   width: 100%;
   height: 100vh;
+  min-height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--clr-bg);
@@ -48,7 +50,6 @@ body {
 .container {
   width: 100%;
   max-width: 380px;
-  margin: var(--mg-main);
   padding: var(--pd-card);
   border-radius: 15px;
   background-color: var(--clr-bg-card);
